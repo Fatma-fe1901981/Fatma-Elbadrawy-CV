@@ -1,13 +1,25 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-
+    background-color: #00144d;
+    border-color: #fc0;
+}
+.wrapper {
+    height: 100vh;
+    /*This part is important for centering*/
+    display: grid;
+    place-items: center;
+    color: #fff;
 }
 
-.name {
-
+.typing-demo {
+    width: 45ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    font-size: 2em;
 }
+
+
+
+
